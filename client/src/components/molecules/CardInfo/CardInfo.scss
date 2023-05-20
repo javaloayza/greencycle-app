@@ -1,0 +1,17 @@
+.cardInfo {
+  font-weight: 600;
+  padding: 18px 12px;
+  margin: 20px auto;
+  color: white;
+  text-align: center;
+}
+
+.primary {
+  background-color: var(--primary);
+}
+
+.fluid {
+  position: relative;
+  display: block;
+  width: 100vw;
+}
