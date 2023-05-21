@@ -9,17 +9,16 @@
   --border-width: 1px;
   --outline-width: 3px;
   --spacing: 1rem;
+  --gray-color: hsl(205deg, 20%, 32%);
 
-  background-color: #e9e6da;
-  --secondary-navbar: #F4F2EC;
+  --background-color: #e9e6da;
+  --primary-navbar: #F4F2EC;
   --primary: #214635;
   --primary-hover: #59720d;
-  --primary-focus: rgba(16, 149, 193, 0.125);
-  --primary-inverse: #fff;
-  --secondary: hsl(205deg, 15%, 41%);
-  --secondary-hover: hsl(205deg, 20%, 32%);
-  --secondary-focus: rgba(89, 107, 120, 0.125);
-  --secondary-inverse: #fff;
+  --card-background-color: var(--background-color);
+  --card-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+
   
 /*   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
@@ -33,7 +32,6 @@
 }
 
 li {
-  list-style: none;
   text-decoration: none;
 }
 
