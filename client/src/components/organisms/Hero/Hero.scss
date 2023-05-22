@@ -1,0 +1,48 @@
+@media (min-width: 960px) {
+  .hero {
+    height: 420px;
+    display: flex;
+    margin: 0px auto 100px;
+    width: 80%;
+    gap: 40px;
+  }
+
+  .hero_body {  
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    font-size: 1.2rem;
+  }
+
+  .hero_img {
+    margin-top: 80px;
+    padding: 15px;
+    position: relative;
+
+    img {
+      width: 21rem;
+    }
+  }
+
+  .hero_img:before {
+    content: "";
+    background: rgb(41, 73, 55);
+    background: linear-gradient(
+      180deg,
+      rgba(41, 73, 55, 1) 0%,
+      rgba(155, 167, 153, 1) 100%
+    );
+    border-radius: 100%;
+    padding: 190px;
+    position: absolute;
+    z-index: -3;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -20px;
+  }
+}
+
+.text-span {
+  color: #89bb77;
+}
