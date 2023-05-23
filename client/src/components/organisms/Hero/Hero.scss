@@ -19,9 +19,13 @@
     margin-top: 80px;
     padding: 15px;
     position: relative;
+    width: 1620px;
 
     img {
-      width: 21rem;
+      width: 100%;
+      display: "block";
+      width: "100%"; // Ensures the image is responsive by default
+      z-index: -1;
     }
   }
 
@@ -46,3 +50,16 @@
 .text-span {
   color: #89bb77;
 }
+
+  /* Media query for devices with a max width of 768px (tablets and smaller devices) */
+  @media only screen and (max-width: 768px) {
+
+    .hero {
+      margin: 0 16px; 
+    }
+
+    .hero_img img {
+      width: 100%;/* Adjust width as needed */
+    }
+    
+  }
