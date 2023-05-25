@@ -9,7 +9,7 @@ interface LayoutProps {
 export const Layout = ({ children }: LayoutProps): JSX.Element => {
   return (
     <main>
-      <NavBar />
+      {/* <NavBar /> */}
       <section className="container">{children}</section>
     </main>
   );
