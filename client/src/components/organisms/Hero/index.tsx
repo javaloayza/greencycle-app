@@ -24,11 +24,6 @@ export const Hero: React.FC = () => {
       </div>
       <div className="hero_img">
         <img
-          width={1620}
-          style={{
-            display: "block",
-            zIndex: -1,
-          }}
           src={recycle}
           alt="banner"
         />
