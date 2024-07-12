@@ -45,19 +45,16 @@
     transform: translateX(-50%);
     top: -20px;
   }
-}
-
-.text-span {
-  color: #89bb77;
+  
 }
 
   /* Media query for devices with a max width of 768px (tablets and smaller devices) */
   @media only screen and (max-width: 768px) {
 
     .hero {
-      margin: 0 16px; 
+      padding: 32px 16px; 
     }
-
+    
     .hero_img img {
       width: 100%;/* Adjust width as needed */
     }

@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  /* padding: 0px 60px; */
+  // padding: 12px 0;
 }
 
 .logo {
@@ -25,6 +25,13 @@
     }
 }
 
+.content_nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+}
+
 .ul_nav {
   display: flex;
   justify-content: space-around;
@@ -40,4 +47,49 @@
   li a:hover {
     color: var(--primary-hover)
   }
+}
+
+.nav_btn {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0.8rem;
+  gap: 2rem;
+  list-style: none;
+
+  li a {
+    color: var(--primary);
+  }
+
+  li a:hover {
+    color: var(--primary-hover)
+  }
+}
+
+@media (max-width: 767px) {
+  
+  .nav_container {
+    padding: 16px 32px;
+    justify-content: space-between;
+  }
+
+  .logo {
+    font-size: 16px;
+  }
+
+  .ul_nav {
+    display: none; // Hide navigation links on small screens
+  }
+
+  .nav_btn {
+    padding: 0;
+    gap: 0;
+  }
+  
+
+  .link_login {
+    display: block; // Always display the login link
+  }
+
+
 }
