@@ -10,7 +10,7 @@ export const NavBar: React.FC = () => {
       aria-label="main navigation"
       className="nav_container"
     >
-        <strong >
+        <strong>
           <Link to="/" className="logo">GreenCycle</Link>
         </strong>
       {/*  <ul>
@@ -33,21 +33,23 @@ export const NavBar: React.FC = () => {
           <Link to="/perfil">Perfil</Link>
         </li>
       </ul> */}
-      <div >
-      <ul className="ul_nav">
-        <li>
-          <Link to="/nosotros">Sobre Nosotros</Link>
-        </li>
-        <li>
-          <Link to="/noticias">Noticias</Link>
-        </li>
-        <li>
-          <Link to="/preguntasfrecuentes">Preguntas Frecuentes</Link>
-        </li>
-        <li className="link_login">
-          <Link to="/login">Login</Link>
-        </li>
-      </ul>
+      <div className="content_nav" >
+        <ul className="ul_nav">
+          <li>
+            <Link to="/nosotros">Sobre Nosotros</Link>
+          </li>
+          <li>
+            <Link to="/noticias">Noticias</Link>
+          </li>
+          <li>
+            <Link to="/preguntasfrecuentes">Preguntas Frecuentes</Link>
+          </li>
+        </ul>
+        <ul className="nav_btn">
+          <li className="link_login">
+            <Link to="/login">Login</Link>
+          </li>
+        </ul>
       </div>
     </nav>
   );

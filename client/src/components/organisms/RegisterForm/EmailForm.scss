@@ -1,0 +1,104 @@
+//globañ
+
+.alert {
+  font-size: small;
+}
+
+.text-error {
+  color: darksalmon;
+}
+
+.container.primary {
+  background: rgb(137, 187, 119);
+  background: linear-gradient(
+    180deg,
+    rgba(137, 187, 119, 1) 0%,
+    rgba(137, 187, 119, 0.6530813008797269) 29%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+
+/* Login */
+
+.form_container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.form_banner {
+  width: 40%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 30.5rem;
+  background: rgb(232, 230, 218);
+  background: linear-gradient(
+    180deg,
+    rgba(232, 230, 218, 1) 80%,
+    rgba(244, 242, 236, 1) 100%
+  );
+}
+.form_banner img {
+  width: 100%;
+  height: auto;
+  padding: 40px;
+}
+.form_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30.5rem;
+  width: 60%;
+  padding: 80px;
+  background-color: var(--primary);
+}
+.form_saludo,
+.cta_div {
+  text-align: center;
+  color: #e9e6da;
+}
+.cta_div a {
+  color: #89bb77;
+}
+.form_div input {
+  max-width: 22rem;
+  margin: auto;
+  font-size: 0.8rem;
+  height: 50px;
+}
+.form_div form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.form_button {
+  background-color: #f4f2ec;
+  color: var(--primary);
+}
+.form_button:hover {
+  background-color: var(--primary-hover);
+  color: #f4f2ec;
+}
+
+//Button
+
+.button-xs {
+  font-size: 12px;
+  padding: 5px 10px;
+}
+
+.borderless {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.alert.text-error {
+  color: red;
+  font-size: 12px;
+}

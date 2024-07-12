@@ -30,6 +30,29 @@ export const LandingHome = () => {
             comunes
           </h4>
           <div className="reciclaje_section">
+            <div className="content_div">
+                <h4 className="reciclaje_title">
+                  Envases de <span className="text-span">plastico</span>
+                </h4>
+                <div className="underline"></div>
+                <p>
+                  El plastico tarda muchos años en degradarse, por lo que es
+                  importante reducir su impacto limitando su consumo, esto lo
+                  podemos lograr reutilizando envases y reciclandolos
+                </p>
+                <p>
+                  En un contenedor amarillo puedes colocar los siguientes
+                  articulos:
+                </p>
+                <ul>
+                  <li>Botellas de plastico</li>
+                  <li>Bote de detergente, champu, gel, etc.</li>
+                  <li>Las bolsas de las patatas</li>
+                  <li>Tapas y tapones de plastico</li>
+                  <li>Bolsas de plastico (excepto las bolsas de basura)</li>
+                  <li>Tarrinas y tapas de yogurt</li>
+                </ul>
+              </div>
             <div className="border_div">
               <div className="img_bg">
                 <img
@@ -39,38 +62,10 @@ export const LandingHome = () => {
                 />
               </div>
             </div>
-            <div className="content_div">
-              <h4 className="reciclaje_title">
-                Envases de <span className="text-span">plastico</span>
-              </h4>
-              <div className="underline"></div>
-              <p>
-                El plastico tarda muchos años en degradarse, por lo que es
-                importante reducir su impacto limitando su consumo, esto lo
-                podemos lograr reutilizando envases y reciclandolos
-              </p>
-              <p>
-                En un contenedor amarillo puedes colocar los siguientes
-                articulos:
-              </p>
-              <ul>
-                <li>Botellas de plastico</li>
-                <li>Bote de detergente, champu, gel, etc.</li>
-                <li>Las bolsas de las patatas</li>
-                <li>Tapas y tapones de plastico</li>
-                <li>Bolsas de plastico (excepto las bolsas de basura)</li>
-                <li>Tarrinas y tapas de yogurt</li>
-              </ul>
-            </div>
           </div>
 
           <div className="reciclaje_section">
-            <div className="border_div">
-              <div className="img_bg">
-                <img src={madera} alt="madera" className="reciclaje_img" />
-              </div>
-            </div>
-            <div className="content_div">
+          <div className="content_div">
               <h4 className="reciclaje_title">
                 <span className="text-span">Briks</span> y envases de{" "}
                 <span className="text-span">madera</span>
@@ -87,14 +82,15 @@ export const LandingHome = () => {
                 organizada
               </p>
             </div>
-          </div>
-          <div className="reciclaje_section">
             <div className="border_div">
               <div className="img_bg">
-                <img src={lata} alt="lata" className="reciclaje_img" />
+                <img src={madera} alt="madera" className="reciclaje_img" />
               </div>
-            </div> 
-            <div className="content_div">
+            </div>
+           
+          </div>
+          <div className="reciclaje_section">
+          <div className="content_div">
               <h4 className="reciclaje_title">
                 <span className="text-span">Latas</span>
               </h4>
@@ -109,15 +105,16 @@ export const LandingHome = () => {
                 o hacer un tren para los mas pequeños!
               </p>
             </div>
+            <div className="border_div">
+              <div className="img_bg">
+                <img src={lata} alt="lata" className="reciclaje_img" />
+              </div>
+            </div> 
+            
           </div>
 
           <div className="reciclaje_section">
-            <div className="border_div">
-              <div className="img_bg">
-                <img src={carton} alt="carton" className="reciclaje_img" />
-              </div>
-            </div>
-            <div className="content_div">
+          <div className="content_div">
               <h4 className="reciclaje_title">
                 Envases de <span className="text-span">papel y carton</span>
               </h4>
@@ -137,15 +134,16 @@ export const LandingHome = () => {
                 <li>Cuadernos</li>
               </ul>
             </div>
+            <div className="border_div">
+              <div className="img_bg">
+                <img src={carton} alt="carton" className="reciclaje_img" />
+              </div>
+            </div>
+           
           </div>
 
           <div className="reciclaje_section">
-            <div className="border_div">
-              <div className="img_bg">
-                <img src={otros} alt="otros" className="reciclaje_img" />
-              </div>
-            </div>
-            <div className="content_div">
+          <div className="content_div">
               <h4 className="reciclaje_title">Otros residuos</h4>
               <div className="underline"></div>
               <p>
@@ -162,6 +160,12 @@ export const LandingHome = () => {
                 <li>Muebles</li>
               </ul>
             </div>
+            <div className="border_div">
+              <div className="img_bg">
+                <img src={otros} alt="otros" className="reciclaje_img" />
+              </div>
+            </div>
+           
           </div>
           </div>
           <div className="coordinadores_banner">
